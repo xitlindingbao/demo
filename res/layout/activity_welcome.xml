@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg_weather"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/tv_appname"
+        android:layout_width="35dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="厦工天气"
+        android:textColor="#FFF"
+        android:textSize="25sp" />
+
+</RelativeLayout>
